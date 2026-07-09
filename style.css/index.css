@@ -24,3 +24,49 @@ ul{
     border-radius: 10px;
     font-size: 15px;
 }
+
+/* banner section satart */
+
+/* banner */
+
+
+.banner{
+    background-image: url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    text-align: center;
+    color: aliceblue;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 25px;
+    width: 800px;
+    margin: auto;
+}
+
+.bnr-btn{
+    margin-top:180px;
+
+    background-color:#2d5cff;
+    color:white;
+
+    font-size:24px;
+
+    border:none;
+    padding:20px 50px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:#1f47d6;
+}
