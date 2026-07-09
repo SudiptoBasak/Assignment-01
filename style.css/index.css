@@ -1,4 +1,6 @@
 
+/* navigation bar start */
+
 nav{
     background-color: whitesmoke;
     display: flex;
@@ -23,11 +25,19 @@ ul{
     padding: 15px 30px;
     border-radius: 10px;
     font-size: 15px;
+    cursor: pointer;
 }
+
+.cmn-btn:hover{
+    background-color: rgb(241, 147, 176);
+}
+
+/* navigation bar ends */
+
+
 
 /* banner section satart */
 
-/* banner */
 
 
 .banner{
@@ -68,5 +78,7 @@ p{
 }
 
 button:hover{
-    background-color:#1f47d6;
+    background-color: rgb(220, 224, 220);
 }
+
+/* banner section ends */
