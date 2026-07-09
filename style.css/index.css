@@ -1,0 +1,26 @@
+
+nav{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+
+.cmn-btn{
+    background-color: rgb(48, 48, 229);
+    color: aliceblue;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+}
