@@ -16,6 +16,7 @@ ul{
     justify-content: space-between;
     gap: 20px;
     list-style: none;
+    color: gray;
 }
 
 .cmn-btn{
@@ -51,15 +52,25 @@ ul{
     padding-top: 100px;
 }
 
-h1{
+.banner h1{
     font-size: 60px;
 }
 
-p{
+/* h1{
+    font-size: 60px;
+} */
+
+.banner p{
     font-size: 25px;
     width: 800px;
     margin: auto;
 }
+
+/* p{
+    font-size: 25px;
+    width: 800px;
+    margin: auto;
+} */
 
 .bnr-btn{
     margin-top:180px;
@@ -82,3 +93,62 @@ button:hover{
 }
 
 /* banner section ends */
+
+
+
+
+/* speakers section starts */
+
+.speakers{
+    padding: 80px 50px;
+    background: white;
+}
+
+.speakers h2{
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
+.speaker-card{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+}
+
+.speaker-card img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.speaker-info{
+    padding: 20px;
+}
+
+.speaker-info h5{
+    color: #2d5cff;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.speaker-info h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.speaker-info p{
+    width: 100%;
+    font-size: 16px;
+    color: gray;
+}
+
+/* speakers section ends */
