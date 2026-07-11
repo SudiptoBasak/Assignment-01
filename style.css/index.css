@@ -130,22 +130,22 @@ button:hover{
     display: block;
 }
 
-.list-item{
+.speaker-info{
     padding: 20px;
 }
 
-.list-item h5{
+.speaker-info h5{
     color: #2d5cff;
     font-size: 12px;
     margin-bottom: 10px;
 }
 
-.list-item h3{
+.speaker-info h3{
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.list-item p{
+.speaker-info p{
     width: 100%;
     font-size: 16px;
     color: gray;
