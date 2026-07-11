@@ -130,22 +130,22 @@ button:hover{
     display: block;
 }
 
-.speaker-info{
+.list-item{
     padding: 20px;
 }
 
-.speaker-info h5{
+.list-item h5{
     color: #2d5cff;
     font-size: 12px;
     margin-bottom: 10px;
 }
 
-.speaker-info h3{
+.list-item h3{
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.speaker-info p{
+.list-item p{
     width: 100%;
     font-size: 16px;
     color: gray;
@@ -308,3 +308,43 @@ button:hover{
 }
 
 /* placeholder section end */
+
+
+ /* footer section start */
+
+.footer{
+    margin-top: 20px;
+    background-color: #dede81;
+    padding:20px 40px;
+}
+
+.footer-part{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.links{
+    display:flex;
+    gap:20px;
+}
+
+.links a{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    text-decoration:none;
+    color: rgb(49, 46, 46);
+    font-weight: bolder;
+}
+
+.links img{
+    width:20px;
+}
+
+.footer-part-2{
+    color: black;
+    text-align:center;
+}
+
+/* footer section end */ 
